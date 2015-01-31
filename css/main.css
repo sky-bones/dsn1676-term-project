@@ -24,3 +24,27 @@ img {
 	width: 100%;
 	display: block;
 }
+
+.big {
+ font-size: 12em;
+}
+
+
+body {
+	margin: 0;
+
+}
+
+.crystal-background {
+	margin: 0 auto;
+	background-image: url(../images/crystals.svg);
+	background-repeat: no-repeat;
+}
+
+.crystal-hand {
+	margin: 0;
+	top: 0px;
+	left: 40px;
+	right: auto;
+	height: 500px;
+}
