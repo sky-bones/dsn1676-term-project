@@ -25,26 +25,56 @@ img {
 	display: block;
 }
 
-.big {
- font-size: 12em;
-}
-
-
 body {
 	margin: 0;
 
+
 }
 
-.crystal-background {
+
+.crystal-background { /* with position on this it won't resize */
 	margin: 0 auto;
 	background-image: url(../images/crystals.svg);
 	background-repeat: no-repeat;
+	height: 700px;
+
 }
 
-.crystal-hand {
+
+.title {
 	margin: 0;
-	top: 0px;
-	left: 40px;
-	right: auto;
-	height: 500px;
+	position: absolute;
+	left:50%;
+	width: 300px;
+	font-size: 4em;
+	color: white;
+}
+
+
+
+@media only screen and (min-width: 25em) {
+
+
+.title {
+	font-size: 10em;
+}
+
+}
+
+@media only screen and (min-width: 38em) {
+
+	.title {
+		font-size: 12em;
+	}
+
+}
+
+@media only screen and (min-width: 60em) {
+
+	.title {
+		font-size: 13em;
+	}
+
+
+
 }
