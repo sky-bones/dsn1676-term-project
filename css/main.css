@@ -36,7 +36,6 @@ body {
 	background-image: url(../images/crystals.svg);
 	background-repeat: no-repeat;
 	height: 700px;
-
 }
 
 
@@ -53,11 +52,17 @@ body {
 
 
 h1:hover {
-	color: blue;
-	transform: scale(1.5);
+	-webkit-transform: scale(1);
+	transform: scale(1);
 	text-shadow: 0 0 8px #FFFFFF;
 	color: rgba(255,255,255,0);
+	transition: all 3s ease;
 }
+
+h1 {
+	transition: all 2s ease-out; /* eases transform; fix to not */
+}
+
 
 .hamburger {
 	position: absolute;
@@ -73,6 +78,7 @@ h1:hover {
 	height: 50px;
 	width: 50px;
 	left: 230px;
+	-webkit-animation: drop-again 10s ease-in infinite;
 	animation: drop-again 10s ease-in infinite;
 }
 
@@ -82,6 +88,7 @@ h1:hover {
 	height: 50px;
 	width: 50px;
 	left: 600px;
+	-webkit-animation: drop-again 8s ease-in infinite;
 	animation: drop-again 8s ease-in infinite;
 }
 
@@ -91,14 +98,20 @@ h1:hover {
 	height: 50px;
 	width: 50px;
 	left: 800px;
+	-webkit-animation: drop-again 5s ease-in infinite;
 	animation: drop-again 5s ease-in infinite;
+}
+
+@-webkit-keyframes drop-again {
+0% {-webkit-transform: translateY(0px); opacity: 1; }
+70% { opacity: 0.9; }
+100% {-webkit-transform: translateY(350px); opacity: 0; }
 }
 
 @keyframes drop-again {
 0% {transform: translateY(0px); opacity: 1; }
 70% { opacity: 0.9; }
 100% {transform: translateY(350px); opacity: 0; }
-
 }
 
 
@@ -125,7 +138,5 @@ h1:hover {
 	.title {
 		font-size: 13em;
 	}
-
-
 
 }
