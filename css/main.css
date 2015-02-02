@@ -51,6 +51,14 @@ body {
 	color: white;
 }
 
+
+h1:hover {
+	color: blue;
+	transform: scale(1.5);
+	text-shadow: 0 0 8px #FFFFFF;
+	color: rgba(255,255,255,0);
+}
+
 .hamburger {
 	position: absolute;
 	margin: 0;
@@ -59,29 +67,37 @@ body {
 	right: 20px;
 }
 
-h1:hover {
-	color: blue;
-	transform: skewx(10deg);
-
-
-}
-
-.drop {
+.drop-1 {
 	position: absolute;
 	margin:0;
 	height: 50px;
-	z-index: 3000;
-	transform: translateY(350px);
+	width: 50px;
+	left: 230px;
+	animation: drop-again 10s ease-in infinite;
+}
+
+.drop-2 {
+	position: absolute;
+	margin:0;
+	height: 50px;
+	width: 50px;
+	left: 600px;
+	animation: drop-again 8s ease-in infinite;
+}
+
+.drop-3 {
+	position: absolute;
+	margin:0;
+	height: 50px;
+	width: 50px;
+	left: 800px;
 	animation: drop-again 5s ease-in infinite;
 }
 
 @keyframes drop-again {
-0% {transform: translateY(0px);
-		opacity: 1; }
+0% {transform: translateY(0px); opacity: 1; }
 70% { opacity: 0.9; }
-
-100% {transform: translateY(350px);
-opacity: 0; }
+100% {transform: translateY(350px); opacity: 0; }
 
 }
 
@@ -89,7 +105,6 @@ opacity: 0; }
 
 
 @media only screen and (min-width: 25em) {
-
 
 .title {
 	font-size: 10em;
