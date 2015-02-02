@@ -59,6 +59,35 @@ body {
 	right: 20px;
 }
 
+h1:hover {
+	color: blue;
+	transform: skewx(10deg);
+
+
+}
+
+.drop {
+	position: absolute;
+	margin:0;
+	height: 50px;
+	z-index: 3000;
+	transform: translateY(350px);
+	animation: drop-again 5s ease-in infinite;
+}
+
+@keyframes drop-again {
+0% {transform: translateY(0px);
+		opacity: 1; }
+70% { opacity: 0.9; }
+
+100% {transform: translateY(350px);
+opacity: 0; }
+
+}
+
+
+
+
 @media only screen and (min-width: 25em) {
 
 
