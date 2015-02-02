@@ -13,7 +13,6 @@ html {
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
-
 }
 
 *,*:before, *:after {
@@ -43,8 +42,8 @@ body {
 	margin: 0;
 	padding: 0;
 	position: absolute;
-	left: calc(50% - 107px);
-	right: calc(50% - 107px);
+	left: calc(50% - 107px );
+	right: calc(50% - 107px );
 	width: 215px;
 	font-size: 4em;
 	color: white;
@@ -103,26 +102,23 @@ h1 {
 }
 
 @-webkit-keyframes drop-again {
-0% {-webkit-transform: translateY(0px); opacity: 1; }
-70% { opacity: 0.9; }
-100% {-webkit-transform: translateY(350px); opacity: 0; }
+	0% {-webkit-transform: translateY(0px); opacity: 1; }
+	70% { opacity: 0.9; }
+	100% {-webkit-transform: translateY(350px); opacity: 0; }
 }
 
 @keyframes drop-again {
-0% {transform: translateY(0px); opacity: 1; }
-70% { opacity: 0.9; }
-100% {transform: translateY(350px); opacity: 0; }
+	0% {transform: translateY(0px); opacity: 1; }
+	70% { opacity: 0.9; }
+	100% {transform: translateY(350px); opacity: 0; }
 }
-
-
 
 
 @media only screen and (min-width: 25em) {
 
-.title {
-	font-size: 10em;
-}
-
+	.title {
+		font-size: 10em;
+	}
 }
 
 @media only screen and (min-width: 38em) {
@@ -130,7 +126,6 @@ h1 {
 	.title {
 		font-size: 12em;
 	}
-
 }
 
 @media only screen and (min-width: 60em) {
