@@ -32,9 +32,6 @@ body {
 
 .crystal-background {
 	margin: 0 auto;
-	xbackground-image: url(../images/crystals.svg);
-	xbackground-repeat: no-repeat;
-	xpadding-top: 47.9%;
 	position: relative;
 	overflow: hidden;
 }
@@ -71,15 +68,13 @@ h1 {
 	transition: all 2s ease-out; /* eases transform; fix to not */
 }
 
-
 .hamburger {
 	position: absolute;
 	margin: 0;
 	height: 50px;
 	width: 50px;
 	right: 20px;
-	padding-top: 63.5%;
-	z-index: 1;
+	z-index: 1002;
 }
 
 .drop-1 { /* mobile */
@@ -227,24 +222,21 @@ h1 {
 	.drop-3 {
 		height: 80px;
 		width: 50px;
-		left: 1500px;
+		left: 1200px;
 		top: 50px;
 	}
 
 	@-webkit-keyframes drop-again {
 	0% {-webkit-transform: translateY(0px); opacity: 1; }
 	70% { opacity: 0.9; }
-	100% {-webkit-transform: translateY(900px); opacity: 0; }
+	100% {-webkit-transform: translateY(600px); opacity: 0; }
 	}
 
 	@keyframes drop-again {
 	0% {transform: translateY(0px); opacity: 1; }
 	70% { opacity: 0.9; }
-	100% {transform: translateY(900px); opacity: 0; }
+	100% {transform: translateY(500px); opacity: 0; }
 	}
-
-
-
 
 
 
