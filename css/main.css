@@ -59,7 +59,7 @@ body {
 h1:hover {
 	-webkit-transform: scale(1);
 	transform: scale(1);
-	text-shadow: 0 0 8px #FFFFFF;
+	text-shadow: 0 0 4px #FFFFFF;
 	color: rgba(255,255,255,0);
 	transition: all 3s ease;
 }
@@ -71,8 +71,8 @@ h1 {
 .hamburger {
 	position: absolute;
 	margin: 0;
-	height: 50px;
-	width: 50px;
+	height: 40px;
+	width: 40px;
 	right: 20px;
 	z-index: 1002;
 }
@@ -80,8 +80,8 @@ h1 {
 .drop-1 { /* mobile */
 	position: absolute;
 	margin:0;
-	height: 40px;
-	width: 50px;
+	height: 30px;
+	width: 40px;
 	left: 65px;
 	top: 2px;
 	-webkit-animation: drop-again 10s ease-in infinite;
@@ -91,8 +91,8 @@ h1 {
 .drop-2 {
 	position: absolute;
 	margin:0;
-	height: 40px;
-	width: 50px;
+	height: 30px;
+	width: 40px;
 	left: 150px;
 	top: 20px;
 	-webkit-animation: drop-again 8s ease-in infinite;
@@ -102,28 +102,42 @@ h1 {
 .drop-3 {
 	position: absolute;
 	margin:0;
-	height: 40px;
-	width: 50px;
+	height: 30px;
+	width: 40px;
 	left: 250px;
 	top: 50px;
-	-webkit-animation: drop-again 5s ease-in infinite;
-	animation: drop-again 5s ease-in infinite;
+	-webkit-animation: drop-again 6s ease-in infinite;
+	animation: drop-again 6s ease-in infinite;
 }
 
 @-webkit-keyframes drop-again { /* mobile */
 	0% {-webkit-transform: translateY(0px); opacity: 1; }
 	70% { opacity: 0.9; }
-	100% {-webkit-transform: translateY(50px); opacity: 0; }
+	100% {-webkit-transform: translateY(100px); opacity: 0; }
 }
 
 @keyframes drop-again {
 	0% {transform: translateY(0px); opacity: 1; }
 	70% { opacity: 0.9; }
-	100% {transform: translateY(50px); opacity: 0; }
+	100% {transform: translateY(100px); opacity: 0; }
 }
 
 
 @media only screen and (min-width: 25em) {
+
+h1:hover {
+	text-shadow: 0 0 8px #FFFFFF;
+	transition: all 3s ease;
+}
+
+h1 {
+	transition: all 2s ease-out;
+}
+
+.hamburger {
+	height: 50px;
+	width: 50px;
+}
 
 	.title {
 		font-size: 8em;
@@ -133,31 +147,37 @@ h1 {
 		height: 50px;
 		width: 50px;
 		left: 30px;
+		-webkit-animation: drop-again 7s ease-in infinite;
+		animation: drop-again 7s ease-in infinite;
 	}
 
 	.drop-2 {
 		height: 50px;
 		width: 50px;
 		left: 200px;
+		-webkit-animation: drop-again 9s ease-in infinite;
+		animation: drop-again 9s ease-in infinite;
 	}
 
 	.drop-3 {
 		height: 50px;
 		width: 50px;
-		left: 400px;
-		top: 50px;
+		left: 380px;
+		top: 30px;
+		-webkit-animation: drop-again 4s ease-in infinite;
+		animation: drop-again 4s ease-in infinite;
 	}
 
-	@-webkit-keyframes drop-again {
+	@-webkit-keyframes drop-again { /* tablet */
 	0% {-webkit-transform: translateY(0px); opacity: 1; }
 	70% { opacity: 0.9; }
-	100% {-webkit-transform: translateY(200px); opacity: 0; }
+	100% {-webkit-transform: translateY(170px); opacity: 0; }
 	}
 
 	@keyframes drop-again {
 	0% {transform: translateY(0px); opacity: 1; }
 	70% { opacity: 0.9; }
-	100% {transform: translateY(200px); opacity: 0; }
+	100% {transform: translateY(100px); opacity: 0; }
 	}
 
 }
@@ -237,7 +257,6 @@ h1 {
 	70% { opacity: 0.9; }
 	100% {transform: translateY(500px); opacity: 0; }
 	}
-
 
 
 }
