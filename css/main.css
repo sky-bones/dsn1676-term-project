@@ -26,7 +26,7 @@ img {
 
 body {
 	margin: 0;
-	background-color: gray;
+	background-color: black;
 }
 
 
@@ -167,15 +167,12 @@ h1 {
 color: white;
 }
 
-.number {
-	width: 120px;
+.title {
+	width: 220px;
 	height: 70px;
 	position: absolute;
 }
 
-.nav-expand {
-background-image:;
-}
 
 .panel {
 	padding: 0;
@@ -185,9 +182,23 @@ background-image:;
 	transition: all 250ms ease-out;
 }
 
-.js-panel-expand {
-	max-height: 14em;
+
+
+.story {
+	padding: 0;
+	margin: 0;
+	max-height: 0;
+	overflow: hidden;
+	transition: all 250ms ease-out;
 }
+
+
+.js-panel-expand {
+	max-height: 200em;
+}
+
+
+
 
 @media only screen and (min-width: 25em) {
 
