@@ -46,11 +46,11 @@ overflow: hidden;
 
 }
 
-a {
+li {
 	list-style-type: none;
 	text-decoration: none;
 	color: white;
-	text-align: right;
+	text-align: center;
 }
 
 
@@ -82,7 +82,14 @@ a {
 	}
 }
 
+.js-panel-down {
+  max-height: 3.5em;
+}
 
+.nav-menu {
+	padding: .25rem;
+	width: 4em;
+}
 
 .title {
 	margin: 0;
