@@ -26,7 +26,7 @@ img {
 
 body {
 	margin: 0;
-	background-color: black;
+	background-color: gray;
 }
 
 
@@ -40,6 +40,48 @@ body {
 	position: relative;
 	z-index: 1000;
 }
+
+.nav {
+overflow: hidden;
+
+}
+
+a {
+	list-style-type: none;
+	text-decoration: none;
+	color: white;
+	text-align: right;
+}
+
+
+.hamburger {
+	position: absolute;
+	margin: 0;
+	height: 40px;
+	width: 40px;
+	right: 20px;
+	z-index: 1002;
+}
+
+
+.hamburger:hover {
+	animation: hamburger-tilt 2s ease-in infinite;
+}
+
+@keyframes hamburger-tilt {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	80% {
+		transform: rotate(100deg);
+	}
+
+	100% {
+		transform: rotate(0deg);
+	}
+}
+
 
 
 .title {
@@ -68,14 +110,6 @@ h1 {
 	transition: all 2s ease-out; /* eases transform; fix to not */
 }
 
-.hamburger {
-	position: absolute;
-	margin: 0;
-	height: 40px;
-	width: 40px;
-	right: 20px;
-	z-index: 1002;
-}
 
 .drop-1 { /* mobile */
 	position: absolute;
@@ -260,3 +294,4 @@ h1 {
 
 
 }
+
