@@ -163,6 +163,31 @@ h1 {
 	100% {transform: translateY(100px); opacity: 0; }
 }
 
+.story {
+color: white;
+}
+
+.number {
+	width: 120px;
+	height: 70px;
+	position: absolute;
+}
+
+.nav-expand {
+background-image:;
+}
+
+.panel {
+	padding: 0;
+	margin: 0;
+	max-height: 0;
+	overflow: hidden;
+	transition: all 250ms ease-out;
+}
+
+.js-panel-expand {
+	max-height: 14em;
+}
 
 @media only screen and (min-width: 25em) {
 

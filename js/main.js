@@ -1,15 +1,8 @@
+var $navExpand = $('.nav-expand');
+var $panel = $('.panel');
 
-var $navMenu = $('.nav-menu');
-var $nav1 = $('.nav-toggle');
-var $btn = $('.btn');
-var $btnPanel = $('.btn-panel-down');
-var $pop = $('.pop');
+$navExpand.on('click', function (){
 
-$navMenu.on('click', function() {
-	console.log('js-panel-open');
-	$nav1.toggleClass('js-panel-open');
-});
+$panel.toggleClass('js-panel-expand');
 
-$btnPanel.on('click', function () {
-$pop.toggleClass('js-panel-down');
 });
