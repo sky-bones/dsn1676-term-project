@@ -23,19 +23,18 @@ $story.toggleClass('js-panel-expand');
 var $story2Expand = $('.story-2-expand');
 var $story2 = $('.story-2');
 
-$storyExpand.on('click', function (){
+$story2Expand.on('click', function (){
 
 $story2.toggleClass('js-panel-expand');
 
 });
 
 
+var $story3Expand = $('.story-3-expand');
+var $story3 = $('.story-3');
 
-var $storyExpand = $('.story-expand');
-var $story = $('.story');
+$story3Expand.on('click', function (){
 
-$storyExpand.on('click', function (){
-
-$story.toggleClass('js-panel-expand');
+$story3.toggleClass('js-panel-expand');
 
 });
