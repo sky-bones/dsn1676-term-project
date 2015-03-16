@@ -167,10 +167,10 @@ h1 {
 color: white;
 }
 
-.title {
+.sections {
+	text-align: center;
 	width: 220px;
 	height: 70px;
-	position: absolute;
 }
 
 
@@ -183,8 +183,15 @@ color: white;
 }
 
 
-
 .story {
+	padding: 0;
+	margin: 0;
+	max-height: 0;
+	overflow: hidden;
+	transition: all 250ms ease-out;
+}
+
+.story-2 {
 	padding: 0;
 	margin: 0;
 	max-height: 0;
