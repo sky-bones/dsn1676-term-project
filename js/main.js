@@ -38,3 +38,6 @@ $story3Expand.on('click', function (){
 $story3.toggleClass('js-panel-expand');
 
 });
+
+
+$('.smooth-scroll').localScroll();
