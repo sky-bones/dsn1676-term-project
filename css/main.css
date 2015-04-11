@@ -250,7 +250,56 @@ p {
 .st3{fill:#1A1A1A;}
 .st4{fill:#FFFFFF;}
 
+#star-4 {
+	-webkit-animation: twinkle-vone 5s ease alternate infinite;
+	animation: twinkle-vone 5s ease alternate infinite;
+}
 
+
+@-webkit-keyframes twinkle-vone {
+	0% { opacity: 100; }
+	50% { opacity: 50; }
+	100% { opacity: 0; }
+}
+
+@keyframes twinkle-vone {
+	0% { opacity: 100; }
+	50% { opacity: 50; }
+	100% { opacity: 0; }
+}
+
+#star-3 {
+	-webkit-animation: twinkle-vtwo 10s ease alternate infinite;
+	animation: twinkle-vtwo 10s ease alternate infinite;
+}
+
+
+#star-2 {
+	-webkit-animation: twinkle-vone 7s ease alternate infinite;
+	animation: twinkle-vone 7s ease alternate infinite;
+}
+
+#star-1 {
+	-webkit-animation: twinkle-vtwo 5s ease alternate infinite;
+	animation: twinkle-vtwo 5s ease alternate infinite;
+}
+
+
+@-webkit-keyframes twinkle-vtwo {
+	0% { opacity: 100; }
+	30% { opacity: 80; }
+	50% { opacity: 50; }
+	80% { opacity: 30; }
+	100% { opacity: 0; }
+}
+
+@keyframes twinkle-vtwo {
+	0% { opacity: 100; }
+	30% { opacity: 80; }
+	50% { opacity: 50; }
+	80% { opacity: 30; }
+	100% { opacity: 0; }
+}
 
 
 @media only screen and (min-width: 25em) {
