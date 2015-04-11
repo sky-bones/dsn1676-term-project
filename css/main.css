@@ -187,6 +187,7 @@ p {
 
 */
 
+
 .text {
 	color: white;
 }
@@ -254,6 +255,9 @@ p {
 .st3{fill:#1A1A1A;}
 .st4{fill:#FFFFFF;}
 
+
+.js-animation {
+
 #star-4 {
 	-webkit-animation: twinkle-vone 5s ease alternate infinite;
 	animation: twinkle-vone 5s ease alternate infinite;
@@ -304,6 +308,10 @@ p {
 	80% { opacity: 30; }
 	100% { opacity: 0; }
 }
+
+}
+
+
 
 
 @media only screen and (min-width: 25em) {

@@ -54,5 +54,6 @@ $('.smooth-scroll').localScroll();
 var $hand = $('.hand');
 
 $hand.waypoint (function () {
-  $hand.addClass('js-active');
+  $hand.addClass('js-animation');
+
 });
