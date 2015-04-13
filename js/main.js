@@ -51,6 +51,8 @@ $story4.toggleClass('js-panel-expand');
 
 $('.smooth-scroll').localScroll();
 
+
+
 var $hand = $('.hand');
 
 $hand.waypoint (function () {

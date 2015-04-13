@@ -256,7 +256,6 @@ p {
 .st4{fill:#FFFFFF;}
 
 
-.js-animation {
 
 #star-4 {
 	-webkit-animation: twinkle-vone 5s ease alternate infinite;
@@ -309,9 +308,11 @@ p {
 	100% { opacity: 0; }
 }
 
+
+.to-top-image {
+	width: 50px;
+	margin: auto;
 }
-
-
 
 
 @media only screen and (min-width: 25em) {
