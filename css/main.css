@@ -29,7 +29,6 @@ body {
 	background-color: black;
 }
 
-
 .crystal-background {
 	margin: 0 auto;
 	position: relative;
@@ -43,7 +42,6 @@ body {
 
 .nav {
 overflow: hidden;
-
 }
 
 a {
@@ -56,7 +54,6 @@ li {
 	text-align: center;
 }
 
-
 .hamburger {
 	position: absolute;
 	margin: 0;
@@ -66,7 +63,6 @@ li {
 	z-index: 1002;
 }
 
-
 .hamburger:hover {
 	-webkit-animation: hamburger-tilt 5s ease;
 	animation: hamburger-tilt 5s ease;
@@ -74,17 +70,13 @@ li {
 
 @-webkit-keyframes hamburger-tilt {
 	0% { -webkit-transform: rotate(0deg); }
-
 	50% { -webkit-transform: rotate(90deg); }
-
 	100% { -webkit-transform: rotate(90deg); }
 }
 
 @keyframes hamburger-tilt {
 	0% { transform: rotate(0deg); }
-
 	50% { transform: rotate(90deg); }
-
 	100% { transform: rotate(90deg); }
 }
 
@@ -110,7 +102,6 @@ li {
 	text-align: center;
 }
 
-
 h1:hover {
 	-webkit-transform: scale(1);
 	transform: scale(1);
@@ -122,7 +113,6 @@ h1:hover {
 h1 {
 	transition: all 2s ease-out; /* eases transform; fix to not */
 }
-
 
 .drop-1 { /* mobile */
 	position: absolute;
@@ -187,7 +177,6 @@ p {
 
 */
 
-
 .text {
 	color: white;
 }
@@ -198,22 +187,20 @@ p {
 	height: 70px;
 }
 
-
 .panel {
 	padding: 0;
 	margin: 0;
 	max-height: 0;
 	overflow: hidden;
-	transition: all 250ms ease-out;
+	transition: all 280ms ease-out;
 }
-
 
 .story {
 	padding: 0;
 	margin: 0;
 	max-height: 0;
 	overflow: hidden;
-	transition: all 250ms ease-out;
+	transition: all 280ms ease-out;
 }
 
 .story-2 {
@@ -221,7 +208,7 @@ p {
 	margin: 0;
 	max-height: 0;
 	overflow: hidden;
-	transition: all 250ms ease-out;
+	transition: all 280ms ease-out;
 }
 
 .story-3 {
@@ -229,7 +216,7 @@ p {
 	margin: 0;
 	max-height: 0;
 	overflow: hidden;
-	transition: all 250ms ease-out;
+	transition: all 280ms ease-out;
 }
 
 .story-4 {
@@ -237,7 +224,7 @@ p {
 	margin: 0;
 	max-height: 0;
 	overflow: hidden;
-	transition: all 250ms ease-out;
+	transition: all 280ms ease-out;
 }
 
 .js-panel-expand {
@@ -249,19 +236,29 @@ p {
 
 }
 
-.st0{fill:#027F80;}
-.st1{fill:#5AC6D1;}
-.st2{fill:#064040;}
-.st3{fill:#1A1A1A;}
-.st4{fill:#FFFFFF;}
+.st0 {
+	fill:#027F80;
+}
+.st1 {
+	fill:#5AC6D1;
+}
 
+.st2 {
+	fill:#064040;
+}
 
+.st3 {
+	fill:#1A1A1A;
+}
+
+.st4 {
+	fill:#FFFFFF;
+}
 
 #star-4 {
 	-webkit-animation: twinkle-vone 5s ease alternate infinite;
 	animation: twinkle-vone 5s ease alternate infinite;
 }
-
 
 @-webkit-keyframes twinkle-vone {
 	0% { opacity: 100; }
@@ -280,7 +277,6 @@ p {
 	animation: twinkle-vtwo 10s ease alternate infinite;
 }
 
-
 #star-2 {
 	-webkit-animation: twinkle-vone 7s ease alternate infinite;
 	animation: twinkle-vone 7s ease alternate infinite;
@@ -290,7 +286,6 @@ p {
 	-webkit-animation: twinkle-vtwo 5s ease alternate infinite;
 	animation: twinkle-vtwo 5s ease alternate infinite;
 }
-
 
 @-webkit-keyframes twinkle-vtwo {
 	0% { opacity: 100; }

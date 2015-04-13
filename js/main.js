@@ -53,9 +53,9 @@ $('.smooth-scroll').localScroll();
 
 
 
+
 var $hand = $('.hand');
-
+var $btn = $('.btn');
 $hand.waypoint (function () {
-  $hand.addClass('js-animation');
-
-});
+    $btn.addClass('js-btn-show');
+},{offset:"50%"});
