@@ -137,7 +137,7 @@ h1:hover {
 }
 
 h1 {
-	transition: all 2s ease-out; /* eases transform; fix to not */
+	transition: all 2s ease-out;
 }
 
 .drop-1 { /* mobile */
