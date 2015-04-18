@@ -51,11 +51,3 @@ $story4.toggleClass('js-panel-expand');
 
 $('.smooth-scroll').localScroll();
 
-
-
-
-var $hand = $('.hand');
-var $btn = $('.btn');
-$hand.waypoint (function () {
-    $btn.addClass('js-btn-show');
-},{offset:"50%"});
