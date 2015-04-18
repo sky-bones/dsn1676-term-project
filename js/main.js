@@ -48,6 +48,15 @@ $story4.toggleClass('js-panel-expand');
 
 });
 
+var $story5Expand = $('.story-5-expand');
+var $story5 = $('.story-5');
+
+$story5Expand.on('click', function (){
+
+$story5.toggleClass('js-panel-expand');
+
+});
+
 
 $('.smooth-scroll').localScroll();
 

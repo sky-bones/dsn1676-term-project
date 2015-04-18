@@ -57,6 +57,7 @@ main {
 
 .crystal-background {
 	margin: 0 auto;
+	padding-bottom: 10px;
 	position: relative;
 	overflow: hidden;
 }
@@ -157,7 +158,7 @@ h1 {
 	margin:0;
 	height: 30px;
 	width: 40px;
-	left: 150px;
+	left: 120px;
 	top: 20px;
 	-webkit-animation: drop-again 8s ease-in infinite;
 	animation: drop-again 8s ease-in infinite;
@@ -247,6 +248,14 @@ p {
 }
 
 .story-4 {
+	padding: 0;
+	margin: 0;
+	max-height: 0;
+	overflow: hidden;
+	transition: all 280ms ease-out;
+}
+
+.story-5 {
 	padding: 0;
 	margin: 0;
 	max-height: 0;
@@ -388,13 +397,13 @@ h1 {
 	@-webkit-keyframes drop-again { /* tablet */
 	0% {-webkit-transform: translateY(0px); opacity: 1; }
 	70% { opacity: 0.9; }
-	100% {-webkit-transform: translateY(170px); opacity: 0; }
+	100% {-webkit-transform: translateY(200px); opacity: 0; }
 	}
 
 	@keyframes drop-again {
 	0% {transform: translateY(0px); opacity: 1; }
 	70% { opacity: 0.9; }
-	100% {transform: translateY(100px); opacity: 0; }
+	100% {transform: translateY(200px); opacity: 0; }
 	}
 
 	.two-illustration {
@@ -413,32 +422,32 @@ h1 {
 	.drop-1 {
 		height: 60px;
 		width: 50px;
-		left: 100px;
+		left: 50px;
 	}
 
 	.drop-2 {
 		height: 60px;
 		width: 50px;
-		left: 200px;
+		left: 350px;
 	}
 
 	.drop-3 {
 		height: 60px;
 		width: 50px;
-		left: 1000px;
+		left: 650px;
 		top: 50px;
 	}
 
 	@-webkit-keyframes drop-again {
 	0% {-webkit-transform: translateY(0px); opacity: 1; }
 	70% { opacity: 0.9; }
-	100% {-webkit-transform: translateY(570px); opacity: 0; }
+	100% {-webkit-transform: translateY(450px); opacity: 0; }
 	}
 
 	@keyframes drop-again {
 	0% {transform: translateY(0px); opacity: 1; }
 	70% { opacity: 0.9; }
-	100% {transform: translateY(570px); opacity: 0; }
+	100% {transform: translateY(450px); opacity: 0; }
 	}
 
 	.two-illustration {
@@ -454,7 +463,7 @@ h1 {
 	.drop-1 {
 		height: 80px;
 		width: 50px;
-		left: 200px;
+		left: 100px;
 	}
 
 	.drop-2 {
@@ -473,13 +482,13 @@ h1 {
 	@-webkit-keyframes drop-again {
 	0% {-webkit-transform: translateY(0px); opacity: 1; }
 	70% { opacity: 0.9; }
-	100% {-webkit-transform: translateY(600px); opacity: 0; }
+	100% {-webkit-transform: translateY(700px); opacity: 0; }
 	}
 
 	@keyframes drop-again {
 	0% {transform: translateY(0px); opacity: 1; }
 	70% { opacity: 0.9; }
-	100% {transform: translateY(500px); opacity: 0; }
+	100% {transform: translateY(700px); opacity: 0; }
 	}
 
 		.two-illustration {
