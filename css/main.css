@@ -41,8 +41,6 @@ img {
 a:focus {
 		background-color: #000;
     outline: 3px solid #fff;
-
-
 }
 
 /* main css */
@@ -367,7 +365,7 @@ h1 {
 
 	.title {
 		font-size: 8em;
-	}
+}
 
 	.drop-1 {
 		height: 50px;
@@ -375,7 +373,7 @@ h1 {
 		left: 30px;
 		-webkit-animation: drop-again 7s ease-in infinite;
 		animation: drop-again 7s ease-in infinite;
-	}
+}
 
 	.drop-2 {
 		height: 50px;
@@ -383,7 +381,7 @@ h1 {
 		left: 200px;
 		-webkit-animation: drop-again 9s ease-in infinite;
 		animation: drop-again 9s ease-in infinite;
-	}
+}
 
 	.drop-3 {
 		height: 50px;
@@ -392,23 +390,23 @@ h1 {
 		top: 30px;
 		-webkit-animation: drop-again 4s ease-in infinite;
 		animation: drop-again 4s ease-in infinite;
-	}
+}
 
 	@-webkit-keyframes drop-again { /* tablet */
 	0% {-webkit-transform: translateY(0px); opacity: 1; }
 	70% { opacity: 0.9; }
 	100% {-webkit-transform: translateY(200px); opacity: 0; }
-	}
+}
 
 	@keyframes drop-again {
 	0% {transform: translateY(0px); opacity: 1; }
 	70% { opacity: 0.9; }
 	100% {transform: translateY(200px); opacity: 0; }
-	}
+}
 
 	.two-illustration {
 		width: 300px;
-	}
+}
 
 }
 
@@ -417,83 +415,85 @@ h1 {
 
 	.title {
 		font-size: 12em;
-	}
+}
 
 	.drop-1 {
 		height: 60px;
 		width: 50px;
 		left: 50px;
-	}
+}
 
 	.drop-2 {
 		height: 60px;
 		width: 50px;
 		left: 350px;
-	}
+}
 
 	.drop-3 {
 		height: 60px;
 		width: 50px;
 		left: 650px;
 		top: 50px;
-	}
+}
 
 	@-webkit-keyframes drop-again {
 	0% {-webkit-transform: translateY(0px); opacity: 1; }
 	70% { opacity: 0.9; }
 	100% {-webkit-transform: translateY(450px); opacity: 0; }
-	}
+}
 
 	@keyframes drop-again {
 	0% {transform: translateY(0px); opacity: 1; }
 	70% { opacity: 0.9; }
 	100% {transform: translateY(450px); opacity: 0; }
-	}
+}
 
 	.two-illustration {
 		width: 550px;
-	}
+}
+
+}
 
 
 @media only screen and (min-width: 60em) {
 
 	.title {
 		font-size: 13em;
-	}
+}
+
 	.drop-1 {
 		height: 80px;
 		width: 50px;
 		left: 100px;
-	}
+}
 
 	.drop-2 {
 		height: 80px;
 		width: 50px;
 		left: 600px;
-	}
+}
 
 	.drop-3 {
 		height: 80px;
 		width: 50px;
 		left: 1200px;
 		top: 50px;
-	}
+}
 
 	@-webkit-keyframes drop-again {
 	0% {-webkit-transform: translateY(0px); opacity: 1; }
 	70% { opacity: 0.9; }
 	100% {-webkit-transform: translateY(700px); opacity: 0; }
-	}
+}
 
 	@keyframes drop-again {
 	0% {transform: translateY(0px); opacity: 1; }
 	70% { opacity: 0.9; }
 	100% {transform: translateY(700px); opacity: 0; }
-	}
+}
 
 		.two-illustration {
 		width: 800px;
-	}
-
+}
 }
 
