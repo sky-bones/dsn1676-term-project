@@ -57,6 +57,15 @@ $story5.toggleClass('js-panel-expand');
 
 });
 
+var $story6Expand = $('.story-6-expand');
+var $story6 = $('.story-6');
+
+$story6Expand.on('click', function (){
+
+$story6.toggleClass('js-panel-expand');
+
+});
+
 
 $('.smooth-scroll').localScroll();
 
