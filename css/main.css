@@ -46,12 +46,9 @@ a:focus {
 /* main css */
 body {
 	margin: 0;
-	background-color: black;
+	background-color: #1a1a1a;
 }
 
-main {
-	background-color: #ee569e;
-}
 
 .crystal-background {
 	margin: 0 auto;
@@ -72,7 +69,7 @@ overflow: hidden;
 a {
 	list-style-type: none;
 	text-decoration: none;
-	color: white;
+	color: #e6e6e6;
 }
 
 li {
@@ -204,7 +201,7 @@ p {
 */
 
 .text {
-	color: white;
+	color: #e6e6e6;
 }
 
 .sections {
@@ -284,7 +281,7 @@ p {
 }
 
 .st3 {
-	fill:#1A1A1A;
+	fill:#000;
 }
 
 .st4 {
