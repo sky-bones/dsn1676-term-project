@@ -346,6 +346,7 @@ p {
 
 
 .to-top-image {
+	height: 60px;
 	width: 50px;
 	margin: auto;
 }
