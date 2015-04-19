@@ -68,4 +68,4 @@ $story6.toggleClass('js-panel-expand');
 
 
 $('.smooth-scroll').localScroll();
-
+$('.smooth-scroll-top').localScroll();

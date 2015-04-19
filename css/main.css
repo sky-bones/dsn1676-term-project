@@ -74,6 +74,7 @@ a {
 
 li {
 	text-align: center;
+	list-style-type: none;
 }
 
 .hamburger {
