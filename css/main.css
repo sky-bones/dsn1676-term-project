@@ -184,23 +184,6 @@ h1 {
 }
 
 
-/*
-p:hover {
-	text-shadow: 0 0 0px #FFFFFF;
-	color: rgba(255,255,255,0);
-	transition: all 3s ease-in; /* eases transform; fix to not
-}
-
-p {
-	-webkit-transform: scale(1);
-	transform: scale(1);
-	text-shadow: 0 0 4px #FFFFFF;
-	color: rgba(255,255,255,0);
-
-}
-
-*/
-
 .text {
 	color: #e6e6e6;
 }
@@ -260,6 +243,14 @@ p {
 }
 
 .story-6 {
+	padding: 0;
+	margin: 0;
+	max-height: 0;
+	overflow: hidden;
+	transition: all 280ms ease-out;
+}
+
+.story-7 {
 	padding: 0;
 	margin: 0;
 	max-height: 0;
@@ -350,6 +341,22 @@ p {
 	width: 50px;
 	margin: auto;
 }
+
+
+.final-words:hover {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	text-shadow: 0 0 4px #FFFFFF;
+	color: rgba(255,255,255,0);
+}
+
+
+.final-words {
+	text-shadow: 0 0 0px #FFFFFF;
+	color: rgba(255,255,255,0);
+	transition: all 3s ease-in;
+}
+
 
 
 @media only screen and (min-width: 25em) {
